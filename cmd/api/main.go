@@ -1,7 +1,6 @@
 package main
 
 import (
-	"log"
 	"golang-bfa/internal/config"
 	"golang-bfa/internal/handlers"
 	"golang-bfa/internal/repositories"
@@ -9,6 +8,7 @@ import (
 	"golang-bfa/internal/server"
 	"golang-bfa/internal/services"
 	"golang-bfa/pkg/logger"
+	"log"
 )
 
 func main() {
